@@ -1,0 +1,466 @@
+body {
+    margin: 0;
+    background-color: #f4f4f4;
+  
+}
+
+
+
+/* Start Navbar Section  */
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  z-index: 20;
+}
+.nav_section strong
+{
+    color: gray !important;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: 'Segoe UI'
+}
+
+
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.2;
+  color: hsl(36deg 86.56% 45.66%) !important;
+  font-family: 'Segoe UI', sans-serif;
+ 
+}
+
+.navbar-nav .nav-link {
+  padding: 10px 15px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.nav_section li a
+{
+   color: white;
+}
+
+.nav_section li a:hover
+{
+    color: hsl(36deg 86.56% 45.66%) !important;
+}
+
+.navbar-nav .nav-item {
+  margin: 0 20px;
+}
+
+
+
+.navbar-brand.d-none.d-lg-block {
+  padding: 0 30px;
+}
+
+/* End Navbar Section  */
+
+
+/* Start Banner Section */
+.header-section {
+   
+    background-image: url(./images/ChatGPT\ Image\ Oct\ 1\,\ 2025\,\ 04_20_37\ PM.png);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin: 70px 20px;
+}
+
+.header-section h2 {
+    color: white;
+    font-size: 34px;
+    margin: auto;
+    font-family: Segoe UI;
+    border-radius: 2px;
+    font-weight: bold;
+    padding: 10px;
+}
+/* End Banner Section */
+
+ /* Start introduction section  */
+
+
+ .introduction-section img
+ {
+    width: 100%;
+    height: 600px;
+   
+ }
+
+
+
+ .lion h4
+ {
+    margin-bottom: 40px;
+    text-align: left !important;
+    color: hsl(36deg 86.56% 45.66%) !important;
+    margin-left: 10px;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    font-weight: 500;
+
+ }
+
+  .lion p
+  {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+  }
+
+  .lion button
+  {
+    background-color: black;
+    color: white;
+     font-family: "Segoe UI";
+    font-weight: 500;
+    padding: 15px 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  .lion button:hover
+  {
+    background-color: hsl(36deg 86.56% 45.66%) !important;
+  }
+
+
+ /* End introduction section  */
+
+ /* Start OurWork Section */
+
+ 
+  .OurWork-section h4
+  {
+    margin-bottom: 40px;
+    color: hsl(36deg 86.56% 45.66%) !important;
+    font-family: "Segoe UI";
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 50px;
+  }
+
+   .OurWork-section p
+   {
+    
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+   }
+
+   h1
+{
+  font-size: 32px;
+  font-family: 'Segoe UI';
+  font-size: 32px;
+  font-family: 'Segoe UI';
+  text-align: center;
+  margin: 30px;
+  padding: 20px;
+}
+
+
+
+
+
+
+.swiper {
+  background-color: black;
+  color: #333;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.swiper-slide {
+  background-color: hsl(36deg 86.56% 45.66%);
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 0.2;
+  transform: scale(0.7);
+  z-index: 0;
+  box-sizing: border-box;
+  width: auto;
+  max-width: 100%;
+}
+
+.swiper-slide-active {
+  opacity: 1;
+  transform: scale(1);
+  z-index: 2;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border: 3px solid hsl(36deg 86.56% 45.66%);
+}
+
+.swiper-slide h2 {
+  font-size: 20px;
+  color: #0d6efd;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+}
+
+.swiper-slide p {
+  font-size: 15px;
+  color: black;
+  font-family: 'Segoe UI';
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: hsl(36deg 86.56% 45.66%);
+}
+
+
+ /* End OurWork Section */
+
+/* Start Footer Section */
+ .footer-home {
+    padding: 80px 0 40px;
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-home h1
+{
+  color: black;
+}
+
+.footer-home h5 {
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.footer-home p {
+    font-size: 17px;
+    margin: 0;
+}
+
+.footer-home .name {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+}
+
+.footer-home span {
+    font-weight: 600;
+    font-size: 15px;
+    font-family: 'Segoe UI', sans-serif;
+    margin: auto 2px;
+}
+
+.footer-home a {
+    color: #555;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-home a:hover {
+    color: blue;
+}
+
+
+.social-icons i {
+    margin: 0 8px;
+    color: #555;
+    transition: color 0.3s;
+    font-size: 20px;
+}
+
+.social-icons i:hover {
+    color: #000;
+}
+
+.footer-home hr {
+    width: 246px;
+    margin: auto;
+    border: 0;
+    border-top: 5px solid rgb(255, 191, 0); 
+}
+
+
+
+/* End Footer Section */
+/* ========================= */
+/* 📱 Responsive Media Queries */
+/* ========================= */
+
+/* للشاشات لحد 1200px (اللابتوب المتوسط) */
+@media (max-width: 1200px) {
+  .header-section {
+    height: 500px;
+    margin: 50px 10px;
+  }
+  .lion h4 {
+    font-size: 26px;
+  }
+  h1 {
+    font-size: 28px;
+  }
+}
+
+/* للشاشات لحد 992px (التابلت الكبير) */
+@media (max-width: 992px) {
+  .header-section {
+    height: 400px;
+    margin: 40px 10px;
+  }
+  .introduction-section img {
+    height: auto;
+  }
+  .lion h4 {
+    font-size: 24px;
+    text-align: center !important;
+  }
+  .lion p {
+    text-align: center;
+    font-size: 15px;
+  }
+  .lion button {
+    display: block;
+    margin: 15px auto;
+    font-size: 15px;
+    padding: 12px 30px;
+  }
+  .swiper {
+    width: 95%;
+    padding: 20px 10px;
+  }
+  .swiper-slide {
+    height: auto;
+    padding: 15px;
+  }
+  .swiper-slide img {
+    height: 160px;
+  }
+}
+
+/* للشاشات لحد 768px (التابلت والموبايل الكبير) */
+@media (max-width: 768px) {
+  .navbar-nav .nav-item {
+    margin: 10px 0;
+    text-align: center;
+  }
+  .navbar-brand {
+    font-size: 24px;
+  }
+  .header-section {
+    height: 300px;
+    margin: 20px 0;
+  }
+  .header-section h2 {
+    font-size: 22px;
+    padding: 5px;
+    text-align: center;
+  }
+  .lion h4 {
+    font-size: 22px;
+  }
+  .lion p {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 22px;
+    margin: 15px;
+    padding: 10px;
+  }
+  .swiper-slide h2 {
+    font-size: 18px;
+  }
+  .swiper-slide p {
+    font-size: 13px;
+  }
+  .footer-home h5 {
+    font-size: 20px;
+  }
+}
+
+/* للشاشات لحد 576px (الموبايل الصغير) */
+@media (max-width: 576px) {
+  .navbar-brand {
+    font-size: 20px;
+  }
+  .header-section {
+    height: 250px;
+  }
+  .header-section h2 {
+    font-size: 18px;
+  }
+  .introduction-section img {
+    height: auto;
+  }
+  .lion h4 {
+    font-size: 20px;
+  }
+  .lion p {
+    font-size: 13px;
+  }
+  .lion button {
+    font-size: 13px;
+    padding: 10px 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .swiper {
+    width: 100%;
+    padding: 15px 5px;
+  }
+  .swiper-slide img {
+    height: 120px;
+  }
+  .footer-home {
+    padding: 40px 10px;
+    text-align: center;
+  }
+  .footer-home h5 {
+    font-size: 18px;
+  }
+  .footer-home p {
+    font-size: 14px;
+  }
+  .social-icons i {
+    font-size: 18px;
+    margin: 0 5px;
+  }
+}
+
+
+
+
+
+
+
+
+
